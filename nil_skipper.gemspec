@@ -6,13 +6,13 @@ Gem::Specification.new do |s|
   s.name        = "nil_skipper"
   s.version     = NilSkipper::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Florian Günther"]
+  s.email       = ["mail@gee-f.de"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{remove nil attributes from 'to_xml' output}
+  s.description = %q{nil_skipper removes nil attributes from xml serialization output (to_xml) of ActiveRecord models}
 
-  s.rubyforge_project = "nil_skipper"
+  # s.rubyforge_project = "nil_skipper"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
