@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Florian Günther"]
   s.email       = ["mail@gee-f.de"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/florianguenther/nil_skipper"
   s.summary     = %q{remove nil attributes from 'to_xml' output}
   s.description = %q{nil_skipper removes nil attributes from xml serialization output (to_xml) of ActiveRecord models}
 
